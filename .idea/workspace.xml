@@ -19,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/client/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -176,12 +176,12 @@
       <updated>1544116584358</updated>
       <workItem from="1544116587290" duration="1814000" />
       <workItem from="1544162800465" duration="2202000" />
-      <workItem from="1544257322901" duration="2958000" />
+      <workItem from="1544257322901" duration="3054000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6974000" />
+    <option name="totallyTimeSpent" value="7070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -328,7 +328,7 @@
     <entry file="file://$PROJECT_DIR$/client/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
