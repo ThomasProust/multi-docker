@@ -1,0 +1,20 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t sjillen/react-test -f ./client/Dockerfile.dev ./client
+
+script:
+  - docker run sjillen/react-test npm test -- --coverage
+
+after_success:
+  - docker build -t sjillen/multi-client ./client
+  - docker build -t sjillen/multi-nginx ./nginx
+  - docker build -t sjillen/multi-server ./server
+  - docker build -t sjillen/multi-worker ./worker
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  - docker push sjillen/multi-client
+  - docker push sjillen/multi-nginx
+  - docker push sjillen/multi-server
+  - docker push sjillen/multi-worker
